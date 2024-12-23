@@ -1,4 +1,4 @@
-FROM mariadb:latest
+FROM mariadb:10.11
 
 # 設置環境變數
 ENV MARIADB_ROOT_PASSWORD=root
