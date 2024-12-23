@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  mariadb:
+    build: .
+    container_name: mariadb1
+    ports:
+      - "3306:3306"
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+

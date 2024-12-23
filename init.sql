@@ -1,0 +1,4 @@
+CREATE DATABASE epower_os;
+GRANT ALL PRIVILEGES ON epower_os.* TO 'root'@'%';
+FLUSH PRIVILEGES;
+
